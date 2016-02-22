@@ -1,0 +1,20 @@
+{
+    "name": "asa/multivendor-marketplace",
+    "description": "It's a marketplace module which allows vendors to sell their own products with permission of website's owner.",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "100.0.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "ASA\\MultivendorMarketplace\\": ""
+        }
+    }
+}
